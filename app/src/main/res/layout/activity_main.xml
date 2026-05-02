@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEFF1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- ======= SECTION SÉCURITÉ ======= -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="── Contrôles de sécurité ──"
+            android:textSize="13sp"
+            android:textColor="#757575"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Statut global -->
+        <TextView
+            android:id="@+id/tvSecStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:layout_marginBottom="6dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="..."/>
+
+        <!-- Résultat ptrace -->
+        <TextView
+            android:id="@+id/tvTraceCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginBottom="6dp"
+            android:textSize="15sp"
+            android:text="..."/>
+
+        <!-- Résultat /proc/maps -->
+        <TextView
+            android:id="@+id/tvMapsCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginBottom="6dp"
+            android:textSize="15sp"
+            android:text="..."/>
+
+        <!-- Détail textuel du statut -->
+        <TextView
+            android:id="@+id/tvSecDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF9C4"
+            android:padding="12dp"
+            android:layout_marginBottom="18dp"
+            android:textSize="14sp"
+            android:textColor="#4E342E"
+            android:text="..."/>
+
+        <!-- ======= SECTION FONCTIONS JNI ======= -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="── Fonctions JNI ──"
+            android:textSize="13sp"
+            android:textColor="#757575"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvHello"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BBDEFB"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="#0D47A1"
+            android:text="..."/>
+
+        <TextView
+            android:id="@+id/tvFact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BBDEFB"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="#0D47A1"
+            android:text="..."/>
+
+        <TextView
+            android:id="@+id/tvReverse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BBDEFB"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="#0D47A1"
+            android:text="..."/>
+
+        <TextView
+            android:id="@+id/tvArray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BBDEFB"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="#0D47A1"
+            android:text="..."/>
+
+        <TextView
+            android:id="@+id/tvMatrix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#C8E6C9"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="#1B5E20"
+            android:text="..."/>
+
+        <TextView
+            android:id="@+id/tvCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFE0B2"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="#BF360C"
+            android:text="..."/>
+
+        <TextView
+            android:id="@+id/tvBench"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F8BBD0"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="16sp"
+            android:textColor="#880E4F"
+            android:text="..."/>
+
+    </LinearLayout>
+</ScrollView>
